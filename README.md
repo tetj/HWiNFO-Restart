@@ -2,7 +2,7 @@
 
 A windowless background helper for `C:\Program Files\HWiNFO64\HWiNFO64.EXE`.
 
-- **Main goal** : restarts the HWiNFO64 process every 11 hours
+- **Main goal** : restarts the HWiNFO64 process every 11 hours. Tested with Version 8.14-5580.
 - Starts HWiNFO64 if it is not already running; does not immediately restart an existing instance.
 - Terminates and relaunches HWiNFO64 after 11 hours, measured from a successful launch (or helper startup if HWiNFO64 was already running).
 - Checks once per minute and automatically relaunches HWiNFO64 if it was closed. Each successful launch resets the 11-hour timer.
