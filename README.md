@@ -29,5 +29,3 @@ The helper never requests elevation (`runas`). A non-elevated launch logs an act
 ## Diagnostics
 
 Activity and failures are written to `%LOCALAPPDATA%\HWiNFO-Restart\restart.log` for the account running the helper. If this location cannot be written, the error and original message are sent to .NET diagnostic trace output instead. No error dialog is shown by the helper.
-
-If an old dialog titled "Sofmeright's HWiNFO64 Tool" still appears, check which executable your startup entry or scheduled task launches. That title and the reported `C:\Program Files\Hwinfo64.exe` path are not in this source; this project uses the installed executable inside the `HWiNFO64` subdirectory.
